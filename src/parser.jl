@@ -1,5 +1,3 @@
-include("lexer.jl")
-
 struct Parser
     tokens::Array{Token}
     Parser(tokens) = new(copy(tokens))

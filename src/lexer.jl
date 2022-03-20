@@ -1,7 +1,3 @@
-using MLStyle
-
-include("tokenizer.jl")
-
 abstract type Token end
 
 #Seems this like a job for a macro...

@@ -1,5 +1,3 @@
-using MLStyle
-
 function tokenize(string)
 
     idx = 1
@@ -54,10 +52,6 @@ function tokenize(string)
         end
     end
     tokens
-end
-
-function is_letter()
-
 end
 
 issomething(T) = x -> !isnothing(tryparse(T, "$x"))
